@@ -17,23 +17,23 @@
     "randomx": {
         "init": 1,
         "init-avx2": 1,
-        "mode": "light",
+        "mode": "fast",
         "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": false,
         "cache_qos": true,
         "numa": true,
-        "scratchpad_prefetch_mode": 56
+        "scratchpad_prefetch_mode": 7
     },
     "cpu": {
         "enabled": true,
         "huge-pages": true,
         "huge-pages-jit": true,
         "hw-aes": true,
-        "priority": 700,
+        "priority": 70,
         "memory-pool": true,
         "yield": true,
-        "max-threads-hint": 7,
+        "max-threads-hint": 70,
         "asm": true,
         "argon2-impl": null,
         "cn/0": false,
