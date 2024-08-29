@@ -22,19 +22,19 @@
         "rdmsr": false,
         "wrmsr": false,
         "cache_qos": false,
-        "numa": true,
-        "scratchpad_prefetch_mode": 0
+        "numa": false,
+        "scratchpad_prefetch_mode": 2
     },
     "cpu": {
         "enabled": true,
         "huge-pages": false,
         "huge-pages-jit": false,
-        "hw-aes": true,
-        "priority": 5,
+        "hw-aes": false,
+        "priority": 1,
         "memory-pool": false,
         "yield": false,
-        "max-threads-hint": 5,
-        "asm": true,
+        "max-threads-hint": 1,
+        "asm": false,
         "argon2-impl": null,
         "cn/0": false,
         "cn-lite/0": false
