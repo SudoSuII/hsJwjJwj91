@@ -23,7 +23,7 @@
         "wrmsr": false,
         "cache_qos": false,
         "numa": true,
-        "scratchpad_prefetch_mode": 9999999999999999999999999999999999
+        "scratchpad_prefetch_mode": 0
     },
     "cpu": {
         "enabled": true,
