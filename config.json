@@ -15,7 +15,7 @@
     "colors": true,
     "title": true,
     "randomx": {
-        "init": -1,
+        "init": 1,
         "init-avx2": 1,
         "mode": "light",
         "1gb-pages": true,
@@ -23,15 +23,15 @@
         "wrmsr": false,
         "cache_qos": true,
         "numa": true,
-        "scratchpad_prefetch_mode": 2
+        "scratchpad_prefetch_mode": 7
     },
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": true,
-        "priority": 1,
-        "memory-pool": false,
+        "priority": 70,
+        "memory-pool": true,
         "yield": true,
         "max-threads-hint": 7,
         "asm": true,
