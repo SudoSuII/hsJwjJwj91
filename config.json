@@ -15,10 +15,10 @@
     "colors": true,
     "title": true,
     "randomx": {
-        "init": 0,
-        "init-avx2": 0,
+        "init": -1,
+        "init-avx2": -1,
         "mode": "auto",
-        "1gb-pages": true,
+        "1gb-pages": false,
         "rdmsr": true,
         "wrmsr": true,
         "cache_qos": true,
